@@ -1,0 +1,941 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em 9em 1.2em 4em;
+    background-color: #ffffffbb;
+    font-family: 'Product Sans';
+    color: #333333;
+    border-bottom-left-radius: 0.5%;
+    border-bottom-right-radius: 0.5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+    width: 100%;
+}
+
+    .profile-photo{
+        width: 5.8em;
+        height: 5.5em;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+}
+
+/* Grow up photo image*/
+.profile-photo:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}
+ /* Grow up photo image*/
+
+    .first-list{
+        margin-right: 90%;
+        display: flex;
+        align-content: center;
+        width: 15em;
+}
+
+    .fi{
+    list-style: none;
+    font-size: 1.1em;
+    cursor:default;
+    margin-left: 10%;
+    width: 15em;
+    margin-top: 4%;
+}
+
+    .email-w{
+    margin-left: 1.5%
+}
+
+    .number-w{
+    margin: 2%;
+}
+
+    .location-w{
+    margin-left: 2%;
+}
+  /* HEADER */ 
+
+         /* Skills div */
+
+
+         /* Grow up*/
+        .skills:hover {
+            transform: scale(1.03);
+            -webkit-transform: scale(1.03);
+            -ms-transform: scale(1.03);
+        }
+         /* Grow up*/
+
+
+         .skills{
+          
+            position: relative;
+            width: 23em;
+            height: 80%;
+            background-color: rgb(248, 250, 250);
+            font-family: 'Product Sans';
+            text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+            margin-top: 2.5%;
+            margin-left: 2%;
+            border-radius: 10%;
+            cursor: default;
+            
+        }
+    
+        .skills-title{
+            display: flex;
+            justify-content: center;
+            font-size: 1.3em;
+        }
+    
+    
+    
+        .skills ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 2em;
+            margin-left: 15%;
+            margin-top: 16%;
+            list-style: none;
+        }
+    
+        
+        .rating{
+            display: flex;
+        }
+        
+        
+        .stars{
+            position: absolute;
+            margin-left: 6.8em;
+        }
+
+        
+    
+        .languages-ul{
+            display: flex;
+            margin-left: 24%;
+            font-size: 1.1em;
+        }
+    
+        .languages{
+            display: flex;
+            font-size: 1.1em;
+            margin-top: -6%;
+            margin-left: 5.5%;
+            letter-spacing: 4px;
+        }
+    /* Skills div */
+
+
+
+
+
+   /* More information section */
+
+.more-info{
+    
+    width: 21em;
+    height: 5em;
+    position: absolute;
+    margin-top: 21.55em;
+    margin-left: -3%;
+}
+    .move{
+        margin-top: 3em;
+        margin-left: -2.25em;
+    }
+
+
+.moreText{
+       display: none;
+        user-select: none;
+    }
+
+#read-more-btn{
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+.more-info.show-more .moreText{
+    display: inline;
+}
+   /* More information section */
+
+
+
+
+
+
+
+
+    /* TITLE */
+
+/* Shiny */
+
+
+/* Shiny */
+
+
+
+
+
+
+
+.main-title{
+   
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    width: 27em;
+    margin-top: -35.45%;
+    margin-left: 51%;
+    
+}
+
+.s-title{
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-family: 'Product Sans';
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+    margin-right: 26%;
+    text-decoration:underline;
+
+}
+
+.main-title a{
+    font-size: 1.1em;
+    font-family: 'Product Sans';
+}
+
+
+.describe{
+    margin-left: 0.6em;
+}
+
+.text-describe{
+    
+    width: 22em;
+}
+
+    /* TITLE */
+
+
+
+     /* EDUCATION DIV */
+
+     .education{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        margin-left: 32.5%;
+        margin-top: 3.5%;
+        font-family: 'Product Sans';
+        cursor: default;
+    }
+    
+        .education-title{
+      
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        font-family: 'Product Sans';
+        text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+        text-decoration:underline;
+        }
+    
+        .gr-span{
+            font-size: 1.15em;
+        }
+    
+        .cl-span{
+            font-size: 18px;
+        }
+    
+    
+        .present-span{
+            font-size: 1.15em;
+        }
+    
+        .tr-span{
+            font-size: 18px;
+        }
+    
+        
+        /* EDUCATION DIV */
+
+
+
+        /*Course DIV */
+
+    .course{
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
+        cursor: default;
+        margin-left: 32.5%;
+        margin-top: 1.9%;
+    }
+
+    .course-title{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Product Sans';
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+    text-decoration:underline;
+    }
+
+    .course span{
+        font-family: 'Product Sans';
+        font-size: 20px;
+    }
+
+    /*Course DIV */
+
+
+
+    /* Work EXPERIENCE DIV */
+
+    .work{
+        cursor: default;
+        display: flex;
+        flex-direction: column;
+        margin-left: 32.5%;
+        margin-top: 2.2%;
+        font-family: 'Product Sans'
+        
+    }
+
+    .work-title{
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        font-family: 'Product Sans';
+        text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+        text-decoration:underline;
+    }
+
+    .work span {
+        font-size: 18px;
+    }
+
+    .skill-acq{
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        font-family: 'Product Sans';
+        text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+        margin-left: 35%;
+        margin-top: 1%;
+    }
+
+
+    .computer-r{
+        margin-top: 0.15%;
+    }
+
+
+    .work-skills{
+        display: flex;
+        flex-direction: column;
+        font-size: 18.5px;
+        
+    }
+
+    .work-skills1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 35%;
+      
+        margin-top: -5%;
+        font-size: 18.5px;
+        
+    }
+
+    .work-skills2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 75%;
+        margin-top: -5.5%;
+        font-size: 18.5px;
+    }
+
+    .first-line{
+        margin-right: 6em;
+    }
+
+    /* Work EXPERIENCE DIV */
+    
+
+
+
+    /* RESPOSIVE */
+
+@media (max-width:1750px){
+
+    .main-title{
+        margin-top: -29.875em;
+        margin-left:  680px;
+    }
+    
+    .work-skills{
+        margin-top: 5px;
+    }
+
+
+    .work-skills1{
+        margin-top: -46px;
+        margin-left: 38%;
+    }
+
+    .work-skills2{
+        margin-top: -46px;
+    }
+
+    .first-line{
+        width: 97%;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:1550px){
+    
+        .main-title{
+            margin-top: -29.875em;
+            margin-left:  680px;
+        }
+        
+        .education{
+            margin-left: 28em;
+        }
+
+        .course{
+            margin-left: 28em;
+        }
+
+        .work{
+            margin-left: 28em;
+        }
+
+
+
+        .work-skills{
+            margin-top: 5px;
+        }
+    
+    
+        .work-skills1{
+            margin-top: -46px;
+            margin-left: 38%;
+        }
+    
+        .work-skills2{
+            margin-top: -46px;
+        }
+    
+        .first-line{
+            width: 97%;
+        }
+    
+       
+    }
+
+/* grow-site */
+
+
+
+
+
+@media (max-width:1360px) {
+        
+
+        .main-title{
+            margin-top: -29.875em;
+            margin-left:  680px;
+        }
+
+        .skills{
+            height: 90%;
+        }
+
+        .education{
+            margin-left: 430px;
+        }
+
+        .course{
+            margin-left:  430px;
+        }
+    
+        .work{
+            margin-left:  430px;
+        }
+
+
+
+
+
+        .work-skills{
+            margin-top: 5px;
+        }
+
+
+        .work-skills1{
+            margin-top: -46px;
+
+        }
+
+        .work-skills2{
+            margin-top: -46px;
+            
+
+        }
+    }
+
+
+
+@media (max-width:1250px){
+    
+
+    .main-title{
+        margin-top: -29.875em;
+        margin-left:  680px;
+    }
+    
+    .work-skills{
+        margin-top: 5px;
+    }
+
+
+    .work-skills1{
+        margin-top: -46px;
+        margin-left: 38%;
+    }
+
+    .work-skills2{
+        margin-top: -46px;
+    }
+
+    .first-line{
+        width: 97%;
+    }
+
+    html,body{
+        width: 100%;
+        height: 100;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+    @media (max-width:1050px){
+        
+       
+        .main-title{
+            margin-top: -29.875em;
+            margin-left: 59%
+            
+        }
+        .main-title span{
+            margin-right: 51%;
+        }
+    
+        .text-describe{
+           
+            margin-left: -13%;
+        }
+    
+        .education{
+            margin-left: 430px;
+            margin-top: 5%;
+
+        }
+
+        .course{
+            margin-left: 430px;
+            margin-top: 3%;
+        }
+
+        .work{
+            margin-left: 430px;
+            margin-top: 3%;
+
+        }
+    
+        .work-skills{
+            margin-top: 5px;
+        }
+    
+    
+        .work-skills1{
+            margin-top: -46px;
+            margin-left: 37.7%;
+        }
+    
+    
+        .work-skills2{
+            margin-top: -46px;
+        }
+    
+        html,body{
+            width: 100%;
+            height: 100;
+            overflow-x: hidden;
+        }
+    }
+    
+
+
+
+    @media (max-width:950px) {
+
+        .work-skills{
+            margin-left: -1%;
+        }
+
+
+        .work-skills1{
+            margin-top: -9.5%;
+            margin-left: 37%;
+        }
+
+        .work-skills2{
+           
+            margin-top: -9.5%;
+        }
+        html,body{
+            width: 99.9%;
+            height: 100;
+            overflow-x: hidden;
+            
+        }
+
+    
+    }
+
+
+
+    @media (max-width: 935px) {
+
+        .work-skills{
+            margin-top: 5px;
+            margin-left: 0%;
+        }
+
+        .work-skills1{
+            margin-top: -46px ;
+            margin-left: 58%;
+        }
+
+        .work-skills2{
+            margin-top: 20px;
+            margin-left: 0%;
+        }
+    
+    
+    
+    }
+
+
+
+
+    @media (max-width:900px) {
+    
+        /* Hidee arr */
+        .more-info{
+            display: none;
+        }
+         /* Hidee arr */
+        
+        .skills{
+            margin-left: 28%;  
+            height: auto;
+        }
+
+        .main-title{
+            margin-top: 3.5%;
+            margin-left: 37.8%;
+        }
+
+        .text-describe{
+            width: 80%;
+            margin-left: -12%;
+        }
+
+        .education{
+            margin-left: 6.5%;
+            margin-top: 5.1%;
+        }
+
+        .course{
+            margin-left: 6.5%;
+        }
+
+        .work{
+            margin-left: 6.5%;
+        }
+    
+        .work-skills{
+            margin-top: 5px;
+        }
+
+        .skill-acq{
+            margin-left: 41%;
+        }
+
+        .work-skills1{
+            margin-top: -46px;
+            margin-left: 40%;
+        }
+
+        .work-skills2{
+            margin-top: -46px;
+            margin-left: 81%;
+        
+        }
+          html,body{
+        width: 100%;
+        height: 100;
+        overflow-x: hidden;
+    }
+    
+    }
+
+
+    @media (max-width:700px)  {
+
+        .skills{
+            margin-left: 23%;
+            height: auto;
+        }
+
+        .main-title{
+            margin-left: 36%;
+        }
+
+        .text-describee {
+            
+            width: 50%;
+         }
+    
+        .education{
+            margin-left: 5.5%;
+            margin-top: 10%;
+        }
+
+        .course{
+            margin-left: 5.5%;
+            margin-top: 6%;
+        }
+
+
+        .work{
+            margin-left: 5.5%;
+            margin-top: 6%;
+        }
+
+
+        .work-skills{
+            margin-top: 5px;
+            margin-left: 0%;
+        }
+
+        .work-skills1{
+            margin-top: -46px ;
+            margin-left: 65%;
+        }
+
+        .work-skills2{
+            margin-top: 20px;
+            margin-left: 0%;
+        
+        }
+
+        .first-line{
+            width: 94%;
+        }
+
+        html,body{
+            width: 100%;
+            height: 100;
+            overflow-x: hidden;
+        }
+    }
+
+
+
+
+    @media (max-width: 550px) {
+
+        .skills{
+            margin-left: 13.3%;
+        }
+
+        .main-title{
+            margin-left: 28.9%;
+        }
+
+        html,body{
+            width: 100%;
+            height: 100;
+            overflow-x: hidden;
+        }
+        
+        
+        .work-skills1{
+            margin-left: 60%;
+        }
+    
+    }
+
+
+
+
+
+    @media (max-width:500px) {
+        .skills{
+            margin-left: 11%;  
+        }
+    
+        .main-title{
+            margin-left: 28.5%;
+        }
+        .text-describee {
+            
+            width: 50%;
+        }
+    
+        .education{
+            margin-left: 5.5%;
+            margin-top: 10%;
+        }
+
+
+        .course{
+            margin-left: 5.5%;
+            margin-top: 6%;
+        }
+
+
+        .work{
+            margin-left: 5.5%;
+            margin-top: 5.5%;
+        }
+
+
+        .skill-acq{
+            margin-top: 2%;
+            margin-left: 30%;
+        }
+
+        .work-skills{
+            margin-top: 5px;
+            margin-left: 0%;
+        }
+
+        .work-skills1{
+            margin-top: -46px;
+            margin-left: 58%;
+        }
+
+        .work-skills2{
+            margin-top: 10px;
+            margin-left: 0%;
+        
+        }
+
+        .cont-photo{
+            margin-left: -15%;
+        }
+   
+        html,body{
+            width: 100%;
+            height: 100;
+            overflow-x: hidden;
+        }
+    }
+
+
+
+    /* PHONE */ 
+
+    @media (max-width: 450px) {
+        .skills{
+            margin-left: 3.4%;  
+            margin-top: 5%;
+            width: 21em;
+        }
+
+        .main-title{
+            margin-left: 18.5%;
+        }
+
+        .main-title span{
+            margin-left: 3%;
+        }
+
+        .skill-acq{
+            margin-left: 25.5%;
+            margin-top: 3%;
+        }
+
+        .first-line{
+            margin-left: -3%;
+            width: 100%;
+        }
+
+        .cont-photo{
+            margin-left: -25%;
+        }
+
+        .work-skills1{
+            margin-top: -12.5%;
+            font-size: 99%;
+        }
+
+        .work-skills2{
+            font-size: 99%;
+            margin-top: 5%;
+        }
+
+        .work-skills{
+            font-size: 99%;
+
+        }
+        
+        .languages{
+            margin-left: 1%;
+        }
+    
+    
+        html,body{
+            width: 100%;
+            height: 100;
+            overflow-x: hidden;
+        }
+    }
+
+    /* RESPOSIVE */
