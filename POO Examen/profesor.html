@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lato:ital,wght@0,400;0,900;1,300&family=Poppins:wght@200&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profesor.css">
+    <title>Unit-Catalog</title>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://kit.fontawesome.com/ad3dca21c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="container">
+        <ul class="first-list">
+            <li class="hover-nav"><a href="./cadru.html" class="home">Înapoi</a></li>
+
+        </ul>
+
+            
+                <div class="logo">
+                    <img src="./SiglaMic_0.png" class="logo-img">
+                </div>
+            
+
+        <ul class="second-list">
+            <li href="#" class="hover-nav"><a href="student.html">Salvare</a></li>
+  
+        </ul>
+    </nav>
+
+
+    <div class="table-container">
+      <table id="tabela-studenti">
+          <thead>
+              <tr>
+                  <th>Nume</th>
+                  <th>Prenume</th>
+                  <th>Inițială</th>
+                  <th>Notă</th>
+                  <th>Specializare</th>
+                  <th>Grupă</th>
+                  <th>Program studiu</th>
+                  <th><button class="sterge">Șterge</button></th>
+
+              </tr>
+          </thead>
+          
+          <tbody class="t-bod">
+            
+            
+              <!-- Aici vor fi afișați studenții -->
+          </tbody>
+      </table>
+  </div>
+  <button id="export-btn">Exportă ca Excel</button>
+
+    
+
+    
+  <script src="profesor.js"></script>
+</body>
+
+</html>
+

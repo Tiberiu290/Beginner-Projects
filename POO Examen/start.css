@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 15rem 1.2rem 15rem;
+    align-items: center;
+    background-color: #ffffffbb;
+    font-family: 'Product Sans';
+    height: 6.6em;
+    color: #333333;;
+    border-bottom-left-radius: 0.5%;
+    border-bottom-right-radius: 0.5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+  }
+  
+   
+  .button {
+    text-decoration: none;
+    color: #333333;;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+  }
+  
+  
+  
+  .first-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: -2.2em;
+    list-style: none;
+    gap: 2rem;
+    font-size: 2em;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  .first-list a:hover{
+    color:  rgb(190, 190, 190);
+  }
+
+  .first-list a{
+    text-decoration: none;
+    color: #333333;;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+  }
+  
+  
+  .second-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .second-list a{
+    text-decoration: none;
+    color: #333333;;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;;
+  
+  }
+  
+  .second-list a:hover{
+    color:  rgb(190, 190, 190);
+  
+  }
+  
+  
+  
+  
+  
+  
+    /* Hover nav bar */
+  .hover-nav:hover{
+    color:  rgb(190, 190, 190);
+  }
+    /* Hover nav bar */
+  
+  
+  
+  
+  
+  .logo{
+    font-size: 2.5em;
+    margin-left: -1em;
+    
+  }
+  
+  .logo-img{
+    width: 3em;
+    height: 2.6em;
+    opacity: 0.9;
+    
+  }
+
+
+
+  .log-div{
+    margin-left: 62em;
+    
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #333333;
+
+}
+
+
+.log-icon{
+    display: flex;
+    height: 1.5rem;
+    margin-right: 0.2rem;
+    color: #333333;
+}
+
+    
+
+
+
+
+  /* Slider */
+
+ .carousel-container{
+    top: 4em;
+    position: relative;
+    width: 25.5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+    margin-left: 3em;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+
+ .carousel-slide{
+    display: flex;
+    width: 50%;
+    height: 25em;
+ }
+
+
+ #prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5% ;
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+ }
+
+ 
+ #nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    right:1% ;
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+ }
+
+
+ /* Slider */
+
+
+ .appli{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 3.9em;
+  display: flex;
+  
+ }
+
+ 
+
+ .title-h{
+    margin-left: -6em;
+    color: #bcc910;;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;
+ }
+
+ .a-move{
+  position: relative;
+  margin-left: -31em;
+  padding: 1em 10em 1em 10em;
+  margin-top: 5em;
+  text-decoration: none;
+    color: #333333;;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgba(0, 0, 0, 0.23) 0px 1px 1px;
+ }
+  
+
+
+ #balloon-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#balloon {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  transition: left 1s, top 1s;
+  opacity: 10%;
+}
+
